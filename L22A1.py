@@ -11,3 +11,11 @@ lowest_score = max(grade_book.items())
 print('The lowest score is', lowest_score)
 highest_score = min(grade_book.items())
 print('The Highest score is ', highest_score)
+student_name = input('Enter a student name: ')
+
+grade = grade_book.get(student_name)
+
+if grade is not None:
+    print(student_name, ':', grade)
+else:
+    print('Student not found')
