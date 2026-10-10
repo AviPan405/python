@@ -1,0 +1,13 @@
+grade_book = {
+    'Aisha': 97,
+    'Donald': 78,
+    'Emil': 89,
+    'Sandy': 36,
+    'Angelina': 29
+}
+
+print('The class average is : ',average)
+lowest_score = max(grade_book.items())
+print('The lowest score is', lowest_score)
+highest_score = min(grade_book.items())
+print('The Highest score is ', highest_score)
