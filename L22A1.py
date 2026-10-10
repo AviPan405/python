@@ -7,9 +7,9 @@ grade_book = {
 }
 
 print('The class average is : ',average)
-lowest_score = max(grade_book.items())
+lowest_score = min(grade_book.values())
 print('The lowest score is', lowest_score)
-highest_score = min(grade_book.items())
+highest_score = max(grade_book.values())
 print('The Highest score is ', highest_score)
 student_name = input('Enter a student name: ')
 
